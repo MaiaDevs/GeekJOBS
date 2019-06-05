@@ -1,0 +1,102 @@
+@import url("mainsass.css");
+@media screen and (max-width: 991px) {
+  .container {
+    padding: 0%;
+    width: 100%;
+  }
+  .container .content {
+    background-color: transparent;
+    width: 100%;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .container .text-login {
+    display: none;
+  }
+  .container .description, .container p {
+    text-align: center;
+    font-size: 19px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    letter-spacing: 0.1em;
+  }
+  .container .user-info {
+    margin: 0px;
+    width: 100%;
+  }
+  .container .login {
+    width: 80%;
+  }
+  .container .input-container {
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+    border: solid 2px #b1bec8;
+    border-radius: 5px;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .input-user {
+    color: #bebebe;
+    font-size: 15px;
+  }
+  .container .input-password {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .container .password {
+    border: solid 2px #f1f1f1;
+  }
+  .container .user-icon {
+    width: 15%;
+    height: 100%;
+    background-color: #f1f1f1;
+    position: relative;
+  }
+  .container .user-text {
+    width: 70%;
+  }
+  .container .user-key {
+    width: 15%;
+    height: 100%;
+    position: relative;
+  }
+  .container .tabs {
+    width: 100%;
+    white-space: nowrap;
+    letter-spacing: 0.7px;
+    font-weight: bold;
+  }
+  .container .tabs .login-tab, .container .tabs .signup-tab {
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    font-size: 13pt;
+    outline: none;
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+  }
+  .container .tabs .login-tab {
+    border-bottom: solid 1px #b1bec8;
+    color: #b1bec8;
+  }
+  .container .tabs .signup-tab {
+    border-bottom: solid 1px #1689e7;
+    color: black;
+  }
+}
+
+@media screen and (max-width: 991px) and (max-width: 414px) {
+  p {
+    font-size: 12pt !important;
+    color: #2b1e16;
+  }
+}
+/*# sourceMappingURL=useraccess.css.map */

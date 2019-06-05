@@ -1,0 +1,244 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "open_sans_regular", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+input[type=text] {
+  padding: 10px;
+  outline: none;
+  width: 100%;
+  border: none;
+  background-color: transparent;
+}
+
+input[type=text]:focus {
+  border-color: #333;
+}
+
+.text-login {
+  color: white;
+  font-size: 10pt;
+  letter-spacing: 0.2em;
+  font-weight: 10;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #cfcfcf;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #cfcfcf;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #cfcfcf;
+}
+
+::placeholder {
+  /* Most modern browsers support this now. */
+  color: #cfcfcf;
+}
+
+.container {
+  width: 65%;
+  text-align: center;
+}
+
+.container .content {
+  margin-top: 40px;
+  width: 70%;
+  background-color: #FFFBFA;
+  -webkit-box-shadow: 0px 2px 2px #888888;
+          box-shadow: 0px 2px 2px #888888;
+  display: inline-block;
+  border-radius: 12px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.container .description, .container p {
+  text-align: center;
+  font-size: 12pt;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  letter-spacing: 0.1em;
+}
+
+.container .header {
+  padding: 10px;
+  background-color: #1689e7;
+  text-align: left;
+  position: relative;
+}
+
+.container .header .bars-icon {
+  display: none;
+}
+
+.container .header .job-name {
+  width: 15%;
+}
+
+.container .login {
+  width: 70%;
+  display: inline-block;
+}
+
+.container .input-container {
+  font-size: 20px;
+  margin: 20px;
+  text-align: center;
+  border: solid 2px #b1bec8;
+  border-radius: 5px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .input-user {
+  color: #bebebe;
+  font-size: 14px;
+}
+
+.container .input-password {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.container .password {
+  border: solid 2px #f1f1f1;
+}
+
+.container .user-icon {
+  width: 15%;
+  height: 100%;
+  background-color: #f1f1f1;
+  position: relative;
+}
+
+.container .icon-key {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: url("../assets/images/key-solid.svg") no-repeat;
+}
+
+.container .icon-user {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: url("../assets/images/envelope-regular.svg") no-repeat;
+}
+
+.container .icon-password {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: url("../assets/images/lock-solid.svg") no-repeat;
+}
+
+.container .user-text {
+  width: 70%;
+}
+
+.container .user-key {
+  width: 15%;
+  height: 100%;
+  position: relative;
+}
+
+.container .tabs {
+  width: 100%;
+  white-space: nowrap;
+  letter-spacing: 0.7px;
+  font-weight: initial;
+}
+
+.container .tabs .login-tab, .container .tabs .signup-tab {
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  font-size: 12pt;
+  outline: none;
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+}
+
+.container .tabs .login-tab {
+  border-bottom: solid 1px #b1bec8;
+  color: #b1bec8;
+}
+
+.container .tabs .signup-tab {
+  border-bottom: solid 1px #706F77;
+  color: #706F77;
+}
+
+.container .btn-classic {
+  border-radius: 1.5em;
+  background-color: #1689e7;
+  color: white;
+  width: 95%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 10pt;
+  text-align: center;
+  float: right;
+  outline: none;
+  letter-spacing: 2px;
+  margin: 10px;
+  font-weight: 10;
+}
+
+@media screen and (max-width: 414px) {
+  .container {
+    width: 100%;
+  }
+  .container .header {
+    padding: 16px;
+    background-color: #1689e7;
+    text-align: left;
+  }
+  .container .header .bars-icon {
+    display: inline-block;
+    width: 5%;
+    padding: 5px;
+  }
+  .container .header .job-name {
+    width: 40%;
+  }
+}
+/*# sourceMappingURL=mainsass.css.map */
